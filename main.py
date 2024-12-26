@@ -3,9 +3,8 @@ from fuzzy_logic import *
 data_mahasiswa = []
 
 def input_data():
-
     while True:
-        nama = input("Masukkan nama mahasiswa (atau ketik 'selesai' untuk selesai): ").strip()
+        nama = input("ketik 'selesai' untuk mengakhiri masukan.\nMasukkan nama : ").strip()
         
         # Memeriksa apakah 'selesai' ada dalam input
         if 'selesai' in nama.lower():  
@@ -15,8 +14,32 @@ def input_data():
             print("Nama hanya boleh terdiri dari huruf dan spasi. Silakan coba lagi.")
             continue
 
-        nilai = float(input("Masukkan nilai tes (0-100): "))
-        waktu = float(input("Masukkan waktu pengerjaan (0-150 menit): "))
+        # Pengecekan untuk nilai tes
+        while True:
+            try:
+                nilai = float(input("Masukkan nilai tes (0-100): "))
+                if 0 <= nilai <= 100:
+                    break  # Keluar dari loop jika input valid
+
+                else:
+                    print("Nilai harus antara 0 dan 100. Silakan coba lagi.")
+
+            except ValueError:
+                print("Input tidak valid. Harap masukkan angka.")
+
+        # Pengecekan untuk waktu pengerjaan
+        while True:
+            try:
+                waktu = float(input("Masukkan waktu pengerjaan (0-150 menit): "))
+                if 0 <= waktu <= 150:
+                    break  # Keluar dari loop jika input valid
+
+                else:
+                    print("Waktu harus antara 0 dan 150 menit. Silakan coba lagi.")
+
+            except ValueError:
+                print("Input tidak valid. Harap masukkan angka.")
+
         data_mahasiswa.append((nama, nilai, waktu))
 
 def eksekusi_fuzzy(perhitungan_fuzzy):
@@ -27,8 +50,6 @@ def eksekusi_fuzzy(perhitungan_fuzzy):
         perhitungan_fuzzy.input['Waktu Pengerjaan'] = waktu
         perhitungan_fuzzy.compute()
         hasil_nilai = perhitungan_fuzzy.output['Keputusan']
-        
-        # Simpan hasil dalam list
         hasil_fuzzy.append((nama, hasil_nilai))
         
     return hasil_fuzzy

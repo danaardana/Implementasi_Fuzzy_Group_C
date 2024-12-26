@@ -1,7 +1,7 @@
 
 # Penerapan Sistem Fuzzy Logic
 
-Program berbasis command line ini dirancang untuk mengevaluasi kelayakan data berdasarkan dua parameter utama: Nilai Tes dan Waktu Pengerjaan. Dengan menggunakan pendekatan logika fuzzy, program ini dapat memberikan keputusan yang lebih fleksibel dan realistis.
+Program berbasis terminal ini dirancang untuk mengevaluasi kelayakan data berdasarkan dua parameter utama: Nilai Tes dan Waktu Pengerjaan. Dengan menggunakan pendekatan logika fuzzy, program ini dapat memberikan keputusan yang lebih fleksibel dan realistis.
 
 
 
@@ -11,8 +11,9 @@ Program berbasis command line ini dirancang untuk mengevaluasi kelayakan data be
 Persiapan untuk menggunakan Library skfuzzy dan numpy
 
 ```bash
- pip install scikit-fuzzy
- pip install numpy
+    pip install keyboard
+    pip install scikit-fuzzy
+    pip install numpy
 ```
     
 ## List Fungsi dan Aturan
