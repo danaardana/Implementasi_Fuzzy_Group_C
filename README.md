@@ -16,14 +16,16 @@ Persiapan untuk menggunakan Library skfuzzy dan numpy
 ```
     
 ## List Fungsi dan Aturan
-
+Fungsi Nilai Test
 ![Fungsi Nilai Test](https://github.com/danaardana/tubes_dkb/blob/main/images/nilai_test.jpg?raw=true)
 
-
+Fungsi Waktu Pengerjaan
 ![Fungsi Waktu Pengerjaan](https://github.com/danaardana/tubes_dkb/blob/main/images/waktu_pengerjaan.jpg?raw=true)
 
+Aturan Fuzzy
 ![Aturan Fuzzy](https://github.com/danaardana/tubes_dkb/blob/main/images/aturan_fuzzy.jpg?raw=true)
 
+Fungsi Keanggotaan Output (Takagi-Sugeno)
 ![Fungsi Keanggotaan Output (Takagi-Sugeno)](https://github.com/danaardana/tubes_dkb/blob/main/images/keanggotaan_output.jpg?raw=true)
 ## List Fungsi
 
