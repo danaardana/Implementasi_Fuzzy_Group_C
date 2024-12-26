@@ -56,3 +56,29 @@ Fungsi Keanggotaan Output (Takagi-Sugeno)
 
 **main():** Fungsi main() berfungsi sebagai antarmuka utama untuk program kontrol fuzzy. 
 
+## Menjalankan Program
+
+Download program 
+
+```bash
+  git clone https://github.com/danaardana/tubes_dkb.git
+```
+
+Navigasikan ke folder
+
+```bash
+  cd my-project
+```
+
+Install library
+
+```bash
+    pip install scikit-fuzzy
+    pip install numpy
+```
+
+Jalankan program
+
+```bash
+  python main.py
+```
