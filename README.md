@@ -11,7 +11,6 @@ Program berbasis terminal ini dirancang untuk mengevaluasi kelayakan data berdas
 Persiapan untuk menggunakan Library skfuzzy dan numpy
 
 ```bash
-    pip install keyboard
     pip install scikit-fuzzy
     pip install numpy
 ```
