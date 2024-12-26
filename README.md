@@ -17,9 +17,11 @@ Persiapan untuk menggunakan Library skfuzzy dan numpy
     
 ## List Fungsi dan Aturan
 Fungsi Nilai Test
+
 ![Fungsi Nilai Test](https://github.com/danaardana/tubes_dkb/blob/main/images/nilai_test.jpg?raw=true)
 
 Fungsi Waktu Pengerjaan
+
 ![Fungsi Waktu Pengerjaan](https://github.com/danaardana/tubes_dkb/blob/main/images/waktu_pengerjaan.jpg?raw=true)
 
 Aturan Fuzzy
