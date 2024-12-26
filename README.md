@@ -73,8 +73,10 @@ Navigasikan ke folder
 Install library
 
 ```bash
-    pip install scikit-fuzzy
-    pip install numpy
+  pip install scikit-fuzzy
+```
+```bash
+  pip install numpy
 ```
 
 Jalankan program
