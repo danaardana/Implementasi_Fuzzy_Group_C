@@ -16,12 +16,11 @@ Persiapan untuk menggunakan Library skfuzzy dan numpy
 ```
     
 ## List Fungsi dan Aturan
-Fungsi Nilai Test
 
+Fungsi Nilai Test
 ![Fungsi Nilai Test](https://github.com/danaardana/tubes_dkb/blob/main/images/nilai_test.jpg?raw=true)
 
 Fungsi Waktu Pengerjaan
-
 ![Fungsi Waktu Pengerjaan](https://github.com/danaardana/tubes_dkb/blob/main/images/waktu_pengerjaan.jpg?raw=true)
 
 Aturan Fuzzy
@@ -29,6 +28,7 @@ Aturan Fuzzy
 
 Fungsi Keanggotaan Output (Takagi-Sugeno)
 ![Fungsi Keanggotaan Output (Takagi-Sugeno)](https://github.com/danaardana/tubes_dkb/blob/main/images/keanggotaan_output.jpg?raw=true)
+
 ## List Fungsi
 
 **setup_fuzzy():** Menginisialisasi variabel input (nilai tes dan waktu pengerjaan) serta output (keputusan) dengan fungsi keanggotaan dan aturan fuzzy yang relevan. Menghasilkan objek simulasi kontrol fuzzy.
