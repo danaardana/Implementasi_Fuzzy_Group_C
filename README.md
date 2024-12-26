@@ -67,7 +67,7 @@ Download program
 Navigasikan ke folder
 
 ```bash
-  cd my-project
+  cd my-project/tubes_dkb
 ```
 
 Install library
