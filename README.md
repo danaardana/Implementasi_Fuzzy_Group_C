@@ -3,6 +3,7 @@
 
 Program berbasis terminal ini dirancang untuk mengevaluasi kelayakan data berdasarkan dua parameter utama: Nilai Tes dan Waktu Pengerjaan. Dengan menggunakan pendekatan logika fuzzy, program ini dapat memberikan keputusan yang lebih fleksibel dan realistis.
 
+Program ini dibuat untuk memenuhi tugas kelompok group C.
 
 
 
@@ -61,7 +62,7 @@ Fungsi Keanggotaan Output (Takagi-Sugeno)
 Download program 
 
 ```bash
-  git clone https://github.com/danaardana/tubes_dkb.git
+  git clone [https://github.com/danaardana/tubes_dkb.git](https://github.com/danaardana/Implementasi_Fuzzy_Group_C)
 ```
 
 Navigasikan ke folder
